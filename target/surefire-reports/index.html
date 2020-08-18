@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-com.gosecure.hiring.AppTest" class="navigator-link">
-              <span class="suite-name border-failed">com.gosecure.hiring.AppTest</span>
+              <span class="suite-name border-passed">com.gosecure.hiring.AppTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,35 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,  1 skipped,  </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-com.gosecure.hiring.AppTest" class="hide-methods failed suite-com.gosecure.hiring.AppTest"> (hide)</a> <!-- hide-methods failed suite-com.gosecure.hiring.AppTest -->
-                      <a href="#" panel-name="suite-com.gosecure.hiring.AppTest" class="show-methods failed suite-com.gosecure.hiring.AppTest"> (show)</a> <!-- show-methods failed suite-com.gosecure.hiring.AppTest -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-com.gosecure.hiring.AppTest" class="hide-methods passed suite-com.gosecure.hiring.AppTest"> (hide)</a> <!-- hide-methods passed suite-com.gosecure.hiring.AppTest -->
+                      <a href="#" panel-name="suite-com.gosecure.hiring.AppTest" class="show-methods passed suite-com.gosecure.hiring.AppTest"> (show)</a> <!-- show-methods passed suite-com.gosecure.hiring.AppTest -->
                     </span>
-                    <div class="method-list-content failed suite-com.gosecure.hiring.AppTest">
+                    <div class="method-list-content passed suite-com.gosecure.hiring.AppTest">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-com.gosecure.hiring.AppTest" title="com.gosecure.hiring.AppTest" class="method navigator-link" hash-for-method="add">add</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-com.gosecure.hiring.AppTest -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-com.gosecure.hiring.AppTest" class="hide-methods skipped suite-com.gosecure.hiring.AppTest"> (hide)</a> <!-- hide-methods skipped suite-com.gosecure.hiring.AppTest -->
-                      <a href="#" panel-name="suite-com.gosecure.hiring.AppTest" class="show-methods skipped suite-com.gosecure.hiring.AppTest"> (show)</a> <!-- show-methods skipped suite-com.gosecure.hiring.AppTest -->
-                    </span>
-                    <div class="method-list-content skipped suite-com.gosecure.hiring.AppTest">
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-com.gosecure.hiring.AppTest" title="com.gosecure.hiring.AppTest" class="method navigator-link" hash-for-method="sub">sub</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-com.gosecure.hiring.AppTest -->
+                    </div> <!-- method-list-content passed suite-com.gosecure.hiring.AppTest -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -131,9 +122,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-com.gosecure.hiring.AppTest" class="panel com.gosecure.hiring.AppTest">
-          <div class="suite-com.gosecure.hiring.AppTest-class-failed">
+          <div class="suite-com.gosecure.hiring.AppTest-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.gosecure.hiring.AppTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -142,32 +133,17 @@
                   <a name="add">
                   </a> <!-- add -->
                   <span class="method-name">add</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [7] but found [5]
-	at com.gosecure.hiring.AppTest.add(AppTest.java:14)
-... Removed 40 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-com.gosecure.hiring.AppTest-class-failed -->
-          <div class="suite-com.gosecure.hiring.AppTest-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.gosecure.hiring.AppTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="sub">
                   </a> <!-- sub -->
                   <span class="method-name">sub</span>
-                  <div class="stack-trace">java.lang.Throwable: Method AppTest.sub()[pri:0, instance:com.gosecure.hiring.AppTest@1f0f1111] depends on not successfully finished methods
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-com.gosecure.hiring.AppTest-class-skipped -->
+          </div> <!-- suite-com.gosecure.hiring.AppTest-class-passed -->
         </div> <!-- panel com.gosecure.hiring.AppTest -->
         <div panel-name="test-xml-com.gosecure.hiring.AppTest" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -223,7 +199,7 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'add')
 data.setCell(0, 2, 'com.gosecure.hiring.AppTest')
-data.setCell(0, 3, 21);
+data.setCell(0, 3, 24);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'sub')
 data.setCell(1, 2, 'com.gosecure.hiring.AppTest')
@@ -232,7 +208,7 @@ window.suiteTableData['com.gosecure.hiring.AppTest']= { tableData: data, tableDi
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 ms</span>
+              <span class="suite-total-time">Total running time: 24 ms</span>
               <div id="times-div-com.gosecure.hiring.AppTest">
               </div> <!-- times-div-com.gosecure.hiring.AppTest -->
             </div> <!-- times-div -->
@@ -260,10 +236,12 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.gosecure.hiring.AppTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">add</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sub</span>
+                <span class="method-start">28 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
