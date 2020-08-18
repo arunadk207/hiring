@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.gosecure.hiring.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 2.043 sec <<< FAILURE!
+add(com.gosecure.hiring.AppTest)  Time elapsed: 0.029 sec  <<< FAILURE!
+java.lang.AssertionError: expected [7] but found [5]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.gosecure.hiring.AppTest.add(AppTest.java:14)
+
